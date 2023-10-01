@@ -1,0 +1,8 @@
+// print the last item of a loop //
+from IPython.display import clear_output
+clear_output(wait=True) 
+ 
+ 
+// limit output. It needs to close jupyter notebook and relaunch it//
+from notebook.services.config import ConfigManager
+cm = ConfigManager().update('notebook', {'limit_output': 3000})  
